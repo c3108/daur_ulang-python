@@ -12,7 +12,7 @@ async def on_ready():
 
 @bot.command()
 async def info(ctx):
-    await ctx.send('Halo! Sampah apa yang ingin kamu daur ulang? Ketik `!plastik`, `!kain`, atau `!kertas`.')
+    await ctx.send(f'Halo, {bot.user}! Sampah apa yang ingin kamu daur ulang? Ketik `!plastik`, `!kain`, atau `!kertas`.')
 
 @bot.command()
 async def plastik(ctx):
